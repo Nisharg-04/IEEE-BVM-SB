@@ -3505,6 +3505,7 @@ a {
   font-size: 24px;
 }
 
+
 .banner-style-three .info h2 {
   font-size: 80px;
   line-height: 1;
@@ -6683,8 +6684,12 @@ a {
 
 .brand-items img {
   /* height: 80px; */
-  width: 70%;
+  width: 80%;
   margin:20px;
+}
+#brand-items img {
+  /* height: 120px; */
+  width: 90%;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {

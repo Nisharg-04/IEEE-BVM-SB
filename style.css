@@ -76,3 +76,23 @@ Sidebar heading:  20px 'Yantramanav', sans-serif
 /*
 ** General Styles for HTML tags
 */
+
+
+#CM_heading{
+    display: flex !important;
+    width: 100% !important;
+    justify-content: space-evenly !important;
+
+}
+#FM_heading{
+    display: flex !important;
+    width: 100% !important;
+    justify-content: space-evenly !important;
+
+}
+
+.NPSS_COMITTEE{
+    display: flex !important;
+    width: 100% !important;
+    justify-content: space-evenly !important;
+}

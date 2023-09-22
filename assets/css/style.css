@@ -2874,29 +2874,29 @@ a {
 .banner-area .banner-slide .swiper-slide.swiper-slide-active h4 {
   -webkit-transform: translateY(0);
           transform: translateY(0);
-  -webkit-transition-delay: 1200ms;
-          transition-delay: 1200ms;
+  -webkit-transition-delay: 5ms;
+          transition-delay: 5ms;
 }
 
 .banner-area .banner-slide .swiper-slide.swiper-slide-active h2 {
   -webkit-transform: translateY(0);
           transform: translateY(0);
-  -webkit-transition-delay: 1400ms;
-          transition-delay: 1400ms;
+  -webkit-transition-delay: 5ms;
+          transition-delay: 5ms;
 }
 
 .banner-area .banner-slide .swiper-slide.swiper-slide-active p {
   -webkit-transform: translateY(0);
           transform: translateY(0);
-  -webkit-transition-delay: 1600ms;
-          transition-delay: 1600ms;
+  -webkit-transition-delay: 5ms;
+          transition-delay: 5ms;
 }
 
 .banner-area .banner-slide .swiper-slide.swiper-slide-active .button {
   -webkit-transform: translateY(0);
           transform: translateY(0);
-  -webkit-transition-delay: 1800ms;
-          transition-delay: 1800ms;
+  -webkit-transition-delay: 5ms;
+          transition-delay: 5ms;
 }
 
 .banner-area.double-items .thumb {
@@ -2907,8 +2907,8 @@ a {
 .banner-area.double-items .swiper-slide.swiper-slide-active .thumb {
   -webkit-transform: translateY(0);
           transform: translateY(0);
-  -webkit-transition-delay: 500ms;
-          transition-delay: 500ms;
+  -webkit-transition-delay: 5ms;
+          transition-delay: 5ms;
   visibility: visible;
   opacity: 1;
 }
@@ -6684,14 +6684,17 @@ a {
 
 .brand-items img {
   /* height: 80px; */
-  width: 80%;
-  margin:20px;
+  width: 99% !important;
+  margin:20px ;
 }
 #brand-items img {
   /* height: 120px; */
-  width: 90%;
+  width: 90% !important;
 }
 
+#brand-items-2 img{
+  margin-top: 20px ;
+}
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .brand-items {
     padding-bottom: 110px;
